@@ -12,8 +12,58 @@ $custom-colors: (
 	"farve": $cyan-400,
 );
 
+//Farver
+
+$primary-bg: #ead3b8;
+$text-primary: #cccccb;
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+body {
+	background: $primary-bg ;
+	font-family:Candara, sans-serif;
+}
+
+// Logo
+
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+//Navbar
+
+.bg-dark {
+	background: #262928;
+}
+
+// Menu ikon
+
+.navbar-button {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 9999;
+	color: $text-primary;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.menu-text {
+	color: $text-primary;
+}
+
+
+//footer
+
+.foot {
+	color: $text-primary;
+}
