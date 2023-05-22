@@ -37,47 +37,47 @@
 <main>
 
     <div class="position-relative">
-
         <img src="img/coverPH.jpg" alt="Cover Image" class="img-fluid">
-
-        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img pt-5 center-image">
+        <div class="overlay">
+            <h2 class="title">Se Vores Kalender!</h2>
+            <button class="btn btn-primary btn-lg btn-center">Se Vores Kalender</button>
+        </div>
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
     </div>
 
-    <div class="container pt-5">
+    <div class="container p-5">
         <div class="row">
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
-                    <img src="img/ph3.jpeg" class="card-img-top" alt="You CAN">
-                    <div class="card-body">
-                        <h5 class="card-title">Tankemønstre</h5>
-                        <p class="card-text">Bliv bevidst om dine tanker om dig selv og hvordan du kan programmere dig selv til succes!</p>
+                <div class="card position-relative">
+                    <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">KreaKassen</h5>
+                        <p class="card-text">Bliv inspireret til kreativitet</p>
                     </div>
                 </div>
-
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
-                    <img src="img/ph2.jpeg" class="card-img-top" alt="Dumbbells">
-                    <div class="card-body">
-                        <h5 class="card-title">Styrke og Sundhed</h5>
-                        <p class="card-text">Hvorfor styrketræning er for dig!</p>
+                <div class="card position-relative">
+                    <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">Workshops</h5>
+                        <p class="card-text">Lær nye færdigheder på dine præmisser</p>
                     </div>
                 </div>
-
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
-                    <img src="img/ph1.jpeg" class="card-img-top" alt="Barber">
-                    <div class="card-body">
-                        <h5 class="card-title">Selvpleje</h5>
-                        <p class="card-text">Pas dig selv og skil dig ud!</p>
+                <div class="card position-relative">
+                    <img src="img/ph/ph3.jpg" class="card-img-top" alt="#">
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">Produkter</h5>
+                        <p class="card-text">Se vores udvalg af kreationer</p>
                     </div>
                 </div>
-
             </div>
+
 
         </div>
     </div>
@@ -88,10 +88,10 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
                 <div class="card">
-                    <img src="img/ph4.jpeg" class="card-img-top" alt="Code Of Conduct">
+                    <img src="img/ph/ph4.jpg" class="card-img-top" alt="#">
                     <div class="card-body">
-                        <h5 class="card-title">Gentleman Kodeks</h5>
-                        <p class="card-text">Er "lev og lad leve" nok?</p>
+                        <h5 class="card-title">Teambuilding</h5>
+                        <p class="card-text">Styrk jeres sammenhold, gennem sjove og kreative udfordringer</p>
                     </div>
                 </div>
 
@@ -99,10 +99,10 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
                 <div class="card">
-                    <img src="img/ph5.jpeg" class="card-img-top" alt="Gentleman snak">
+                    <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
                     <div class="card-body">
-                        <h5 class="card-title">Gentleman Snak</h5>
-                        <p class="card-text">Åben snak om hverdagsemner</p>
+                        <h5 class="card-title">Samarbejde</h5>
+                        <p class="card-text">Hvem er vores samarbejdspartnere og hvordan kan du indgå i et bæredygtigt samarbejde</p>
                     </div>
                 </div>
 
@@ -110,10 +110,10 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
                 <div class="card">
-                    <img src="img/ph1.jpeg" class="card-img-top" alt="Image description">
+                    <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Card text</p>
+                        <h5 class="card-title">Bliv Frivillig</h5>
+                        <p class="card-text">Er du engageret og brænder du for, at dele ud af din viden og dine evner?</p>
                     </div>
                 </div>
 
@@ -133,18 +133,12 @@
     </div>
 
     <div class="container text-center">
-        <h2 class="headline" id="gentleman">Gentleman Kodeks</h2>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+        <h2 class="headline" id="gentleman">Om FriRUM</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4">Vores mission og værdier</div>
         <div class="col-sm-12 col-md-6 col-lg-4"></div>
         <div class="col-sm-12 col-md-6 col-lg-4"></div>
     </div>
 
-    <div class="container text-center">
-        <h2 class="headline" id="peer">Peer Talk</h2>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-    </div>
 
 </main>
 
@@ -152,6 +146,7 @@
     <?php include 'footer.php'; ?>
 </footer>
 
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

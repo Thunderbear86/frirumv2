@@ -4,7 +4,7 @@
     </button>
     <div class="d-flex align-items-center">
         <a class="navbar-brand me-3" href="#">
-            <img src="img/paere.jpg" alt="Logo" class="rounded-circle logo-img g-2" style="max-width: 100px; max-height: 100px;">
+            <img src="img/paere.jpg" alt="Logo" class="rounded-circle logo-img g-2" style="max-width: 80px; max-height: 80px;">
         </a>
     
         <div class="collapse navbar-collapse" id="navbarNav">

@@ -38,9 +38,6 @@ body {
 
 //Navbar
 
-.bg-dark {
-	background: #262928;
-}
 
 // Menu ikon
 
@@ -61,9 +58,41 @@ body {
 	color: $text-primary;
 }
 
+//CTA cover
+
+.btn-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
 
 //footer
 
 .foot {
 	color: $text-primary;
 }
+
+//Cards
+
+.card-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity (last value) as needed */
+	padding: 10px;
+}
+
