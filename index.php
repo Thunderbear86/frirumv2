@@ -45,11 +45,10 @@
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
     </div>
 
-    <div class="container p-5">
-        <div class="row">
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card position-relative">
+    <div class="container">
+        <div class="row g-0 row-cols-3 gy-o">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="card position-relative kreakassen">
                     <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
                     <div class="card-overlay position-absolute bottom-0 start-0">
                         <h5 class="card-title fw-bold">KreaKassen</h5>
@@ -57,8 +56,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card position-relative">
                     <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
                     <div class="card-overlay position-absolute bottom-0 start-0">
@@ -66,9 +64,12 @@
                         <p class="card-text">Lær nye færdigheder på dine præmisser</p>
                     </div>
                 </div>
+                <h3 class="p-3">Lorem Ipsum</h3>
+                <p class="p-3">
+                    Lorem ipsum dolor sit amet. Eos nesciunt soluta et repudiandae galisum eum Quis architecto. Lorem ipsum dolor sit amet. Eos nesciunt soluta et repudiandae galisum eum Quis architecto.
+                </p>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card position-relative">
                     <img src="img/ph/ph3.jpg" class="card-img-top" alt="#">
                     <div class="card-overlay position-absolute bottom-0 start-0">
@@ -77,48 +78,33 @@
                     </div>
                 </div>
             </div>
-
-
-        </div>
-    </div>
-
-
-    <div class="container pt-5">
-        <div class="row">
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="card position-relative">
                     <img src="img/ph/ph4.jpg" class="card-img-top" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Teambuilding</h5>
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">Teambuilding</h5>
                         <p class="card-text">Styrk jeres sammenhold, gennem sjove og kreative udfordringer</p>
                     </div>
                 </div>
-
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card position-relative">
                     <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Samarbejde</h5>
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">Samarbejde</h5>
                         <p class="card-text">Hvem er vores samarbejdspartnere og hvordan kan du indgå i et bæredygtigt samarbejde</p>
                     </div>
                 </div>
-
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="card position-relative">
                     <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Bliv Frivillig</h5>
+                    <div class="card-overlay position-absolute bottom-0 start-0">
+                        <h5 class="card-title fw-bold">Bliv Frivillig</h5>
                         <p class="card-text">Er du engageret og brænder du for, at dele ud af din viden og dine evner?</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 

@@ -34,6 +34,35 @@ body {
 	font-family:Candara, sans-serif;
 }
 
+//grid
+
+.card {
+	position: relative;
+	overflow: hidden; /* Ensures the overlay doesn't overflow the card */
+}
+
+.card-overlay {
+	position: absolute;
+	bottom: 0;
+	start: 0;
+	width: 100%; /* Span the full width of the card */
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	padding: 10px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	transform: translateY(100%); /* Initially move the overlay below the card */
+}
+
+.card:hover .card-overlay {
+	opacity: 1;
+	transform: translateY(0); /* Move the overlay back to its original position */
+}
+
+.kreakassen{
+}
+
+
 // Logo
 
 .center-image {
