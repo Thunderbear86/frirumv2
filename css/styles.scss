@@ -17,6 +17,12 @@ $custom-colors: (
 $primary-bg: #ead3b8;
 $text-primary: #cccccb;
 
+$orange: #ff651a;
+$blue: #131588;
+$green: #008e25;
+$yellow: #e6c922;
+$red: #f91e25;
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
