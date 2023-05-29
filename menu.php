@@ -8,11 +8,7 @@
                     <i class="fas fa-bars fa-2x navbar-button"></i>
                 </button> 
                 
-            <div class="col" style="position: relative">
-                <a class="navbar-brand me-3 p-2" href="index.php">
-                    <img src="img/paere.jpg" alt="Logo" class="rounded-circle logo-img g-2 logo-style" style="width: 65px; height: 60px">
-                </a>
-            </div>
+      
             
             <div class="d-flex align-items-center col">
                
