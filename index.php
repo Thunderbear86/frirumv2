@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>FriFRUM</title>
+    <title>FriFRUM Lab</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -30,28 +30,35 @@
 
 <header>
 
+<!--Sticky top navbar -->
+
     <?php include 'menu.php'; ?>
 
 </header>
 
 <main>
 
+
+<!-- Hero Cover Image med CTA -->
+
     <div class="position-relative">
         <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid">
         <div class="overlay">
-            <h2 class="title">Se Vores Kalender!</h2>
-            <button class="btn btn-primary btn-lg btn-center">Se Vores Kalender</button>
+            <button class="btn btn-primary btn-lg btn-center">Kalender</button>
         </div>
         <br>
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
     </div>
 
+
+<!-- Grid Masonry Column -->
+
     <div class="container">
-        <div class="row g-0 row-cols-3 g-1">
+        <div class="row g-0 g-1">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card position-relative">
-                    <img src="img/ph/ph5.JPG" class="card-img-top" id="krea" alt="kreaKassen">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/ph5.JPG" class="card-img-top img-fluid" id="krea" alt="kreaKassen">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">KreaKassen</h5>
                         <p class="card-text">Bliv inspireret til kreativitet</p>
                     </div>
@@ -60,7 +67,7 @@
             <div class="col-sm-12 col-md-6 col-lg-8">
                 <div class="card position-relative">
                     <img src="img/ph/workshop.JPG" class="card-img-top" alt="workshop">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Workshops</h5>
                         <p class="card-text">Lær nye færdigheder på dine præmisser</p>
                     </div>
@@ -69,7 +76,7 @@
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card position-relative">
                     <img src="img/ph/produkter.jpg" class="card-img-top" alt="produkter">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Produkter</h5>
                         <p class="card-text">Se vores udvalg af kreationer</p>
                     </div>
@@ -78,7 +85,7 @@
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card position-relative">
                     <img src="img/ph/ph6.JPG" class="card-img-top" alt="teambuilding">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Teambuilding</h5>
                         <p class="card-text">Styrk jeres sammenhold, gennem sjove og kreative udfordringer</p>
                     </div>
@@ -87,7 +94,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card position-relative">
                     <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="samarbejde">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Samarbejde</h5>
                         <p class="card-text">Hvem er vores samarbejdspartnere og hvordan kan du indgå i et bæredygtigt samarbejde</p>
                     </div>
@@ -96,7 +103,7 @@
             <div class="col-sm-12 col-md-6 col-lg-8">
                 <div class="card position-relative">
                     <img src="img/ph/frivillig.jpg" class="card-img-top" alt="frivillig">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Bliv Frivillig</h5>
                         <p class="card-text">Er du engageret og brænder du for, at dele ud af din viden og dine evner?</p>
                     </div>
@@ -105,6 +112,8 @@
         </div>
     </div>
 
+
+<!-- Column indhold -->
 
     <div class="container">
         <h2 class="headline text-center" id="fuldkommen"></h2>
