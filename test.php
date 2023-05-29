@@ -45,34 +45,46 @@
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
     </div>
 
+    <!-- Grid Masonry Column -->
+
+    <div class="container-fluid lp1">
+        <div class="row lprow">
+            <div class="col text-center">
+                <h1 class="otext">
+                    Åben Workshop
+                </h1>
+                <p class="otext">
+                    Gratis tilmelding for alle.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-        <div class="row g-0 row-cols-3 gy-o">
-            <div class="col-sm-12 col-md-6 col-lg-8">
-                <div class="card position-relative kreakassen">
-                    <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+        <div class="row g-0 g-1">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card position-relative">
+                    <img src="img/ph/ph5.JPG" class="card-img-top img-fluid" id="krea" alt="kreaKassen">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">KreaKassen</h5>
                         <p class="card-text">Bliv inspireret til kreativitet</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-8">
                 <div class="card position-relative">
-                    <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/workshop.JPG" class="card-img-top" alt="workshop">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Workshops</h5>
                         <p class="card-text">Lær nye færdigheder på dine præmisser</p>
                     </div>
                 </div>
-                <h3 class="p-3">Lorem Ipsum</h3>
-                <p class="p-3">
-                    Lorem ipsum dolor sit amet. Eos nesciunt soluta et repudiandae galisum eum Quis architecto. Lorem ipsum dolor sit amet. Eos nesciunt soluta et repudiandae galisum eum Quis architecto.
-                </p>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card position-relative">
-                    <img src="img/ph/ph3.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/produkter.jpg" class="card-img-top" alt="produkter">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Produkter</h5>
                         <p class="card-text">Se vores udvalg af kreationer</p>
                     </div>
@@ -80,8 +92,8 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card position-relative">
-                    <img src="img/ph/ph4.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/ph6.JPG" class="card-img-top" alt="teambuilding">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Teambuilding</h5>
                         <p class="card-text">Styrk jeres sammenhold, gennem sjove og kreative udfordringer</p>
                     </div>
@@ -89,8 +101,8 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card position-relative">
-                    <img src="img/ph/ph1.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="samarbejde">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Samarbejde</h5>
                         <p class="card-text">Hvem er vores samarbejdspartnere og hvordan kan du indgå i et bæredygtigt samarbejde</p>
                     </div>
@@ -98,8 +110,8 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-8">
                 <div class="card position-relative">
-                    <img src="img/ph/ph2.jpg" class="card-img-top" alt="#">
-                    <div class="card-overlay position-absolute bottom-0 start-0">
+                    <img src="img/ph/frivillig.jpg" class="card-img-top" alt="frivillig">
+                    <div class="card-body">
                         <h5 class="card-title fw-bold">Bliv Frivillig</h5>
                         <p class="card-text">Er du engageret og brænder du for, at dele ud af din viden og dine evner?</p>
                     </div>
@@ -107,6 +119,26 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Column indhold -->
+
+    <div class="container">
+        <h2 class="headline text-center" id="fuldkommen"></h2>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+    </div>
+
+    <div class="container text-center">
+        <h2 class="headline" id="gentleman">Om FriRUM</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4">Vores mission og værdier</div>
+        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+    </div>
+
 
 
 

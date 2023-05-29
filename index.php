@@ -28,7 +28,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<header>
+<header class="pb-5">
 
 <!--Sticky top navbar -->
 
@@ -41,96 +41,52 @@
 
 <!-- Hero Cover Image med CTA -->
 
-    <div class="position-relative">
+    <div class="position-relative pt-5">
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
         <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid">
         <div class="overlay">
-            <button class="btn btn-primary btn-lg btn-center">Kalender</button>
-        </div>
-        <br>
-        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
-    </div>
-
-
-<!-- Grid Masonry Column -->
-
-    <div class="container">
-        <div class="row g-0 g-1">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card position-relative">
-                    <img src="img/ph/ph5.JPG" class="card-img-top img-fluid" id="krea" alt="kreaKassen">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">KreaKassen</h5>
-                        <p class="card-text">Bliv inspireret til kreativitet</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-8">
-                <div class="card position-relative">
-                    <img src="img/ph/workshop.JPG" class="card-img-top" alt="workshop">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Workshops</h5>
-                        <p class="card-text">Lær nye færdigheder på dine præmisser</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card position-relative">
-                    <img src="img/ph/produkter.jpg" class="card-img-top" alt="produkter">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Produkter</h5>
-                        <p class="card-text">Se vores udvalg af kreationer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card position-relative">
-                    <img src="img/ph/ph6.JPG" class="card-img-top" alt="teambuilding">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Teambuilding</h5>
-                        <p class="card-text">Styrk jeres sammenhold, gennem sjove og kreative udfordringer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card position-relative">
-                    <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="samarbejde">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Samarbejde</h5>
-                        <p class="card-text">Hvem er vores samarbejdspartnere og hvordan kan du indgå i et bæredygtigt samarbejde</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-8">
-                <div class="card position-relative">
-                    <img src="img/ph/frivillig.jpg" class="card-img-top" alt="frivillig">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Bliv Frivillig</h5>
-                        <p class="card-text">Er du engageret og brænder du for, at dele ud af din viden og dine evner?</p>
-                    </div>
-                </div>
-            </div>
+            <button style="--c: #ffffff;--b: 5px;--s:12px" class="btn-center">Kalender</button>
         </div>
     </div>
 
 
-<!-- Column indhold -->
-
-    <div class="container">
-        <h2 class="headline text-center" id="fuldkommen"></h2>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <h3 class="text-center">Åbningstider</h3>
+            <ul>
+                <lo>Mandag</lo>
+                <lo>Tirsdag</lo>
+            </ul>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <h3 class="text-center">Info</h3>
+            <ul>
+                <a>Om FriRUM</a>
+                <a>Kontakt</a>
+                <a>FAQ</a>
+                <a>Nyhedsbrev</a>
+                <a>Handelsbetingelser</a>
+                <a>Privatlivspolitik</a>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <h3 class="text-center">Adresse</h3>
+            <div class="align-content-center">
+                <ul>
+                    <lo>Adresse 10 ST</lo>
+                    <lo>4200 Slagelse</lo>
+                    <br>
+                    <lo>CVR</lo>
+                    <lo>Hoved Mail</lo>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <img src="img/paere.jpg" alt="Logo" class="rounded-circle logo-img g-2 logo-style" style="width: 65px; height: 60px">
+        </div>
     </div>
-
-    <div class="container text-center">
-        <h2 class="headline" id="gentleman">Om FriRUM</h2>
-        <div class="col-sm-12 col-md-6 col-lg-4">Vores mission og værdier</div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-    </div>
-
+</div>
 
 </main>
 
