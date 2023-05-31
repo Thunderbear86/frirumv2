@@ -1,11 +1,13 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
+
 
 // 4. Include any default map overrides here
 $custom-colors: (
@@ -30,7 +32,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 body {
-	background: $primary-bg ;
+	background: linear-gradient(135deg, #ead3b8 0%,#ca9369 100%);
 	font-family:Candara, sans-serif;
 }
 
@@ -208,3 +210,9 @@ button {
 	padding: 10px;
 }
 
+//Kalender
+
+.calendar {
+	max-width: 800px;
+	margin: 0 auto;
+}
