@@ -39,7 +39,7 @@
 
 <main>
 
-    <div class="container">
+    <div class="container pt-5">
         <h2>Event Kalender</h2>
         <div id="calendar" class="calendar"></div>
     </div>
