@@ -11,37 +11,32 @@
       
             
             <div class="d-flex align-items-center col">
-               
-            
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav p-3">
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="index.php">Hjem</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="kalender.php">Kalender</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="kreakassen.php">KreaKASSEN</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="workshops.php">Workshops</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="produkter.php">Produkter</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="teambuilding.php">Teambuilding</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="samarbejdspartnere.php">Samarbejdspartnere</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="frivillig.php">Bliv Frivillig</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link menu-text" href="om.php">Om FriRUM</a>
-                    </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="index.php">Hjem</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="kalender.php">Kalender</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="kreakassen.php">KreaKASSEN</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="workshops.php">Workshops</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="teambuilding.php">Teambuilding</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="samarbejdspartnere.php">Samarbejdspartnere</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="frivillig.php">Bliv Frivillig</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="om.php">Om FriRUM</a>
+                        </li>
                 </ul>
             </div>
         </nav>
