@@ -38,6 +38,10 @@
 
 <main>
 
+    <div class="position-relative pt-5">
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
+    </div>
+
     <div class="container pt-5">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-3">
