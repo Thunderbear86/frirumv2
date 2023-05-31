@@ -20,8 +20,6 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
-
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -48,7 +46,9 @@
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
         <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid">
         <div class="overlay">
-            <button href="kalender.php" style="--c: #ffffff;--b: 5px;--s:12px" class="btn-center">Kalender</button>
+            <a href="kalender.php">
+                <button class="btn-center">Kalender</button>
+            </a>
         </div>
     </div>
 

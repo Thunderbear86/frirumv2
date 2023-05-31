@@ -19,6 +19,7 @@ $custom-colors: (
 $primary-bg: #ead3b8;
 $text-primary: #cccccb;
 
+$brown: #CA9369FF;
 $orange: #ff651a;
 $blue: #131588;
 $green: #008e25;
@@ -36,23 +37,6 @@ body {
 	font-family:Candara, sans-serif;
 }
 
-// landingpage boxes
-
-.lp1 {
-	background: $orange;
-	opacity: 0.8;
-}
-
-.otext {
-	color: $blue;
-}
-
-.lprow {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 //logo paere
 
 .logo-style {
@@ -60,37 +44,6 @@ body {
 	min-height: 60px;
 	margin-top: 10px;
 	margin-left: 0;
-}
-
-
-
-
-//grid
-
-.card {
-	position: relative;
-	overflow: hidden; /* Ensures the overlay doesn't overflow the card */
-}
-
-.card-overlay {
-	position: absolute;
-	bottom: 0;
-	start: 0;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
-	color: #000000;
-	padding: 10px;
-	opacity: 0;
-	transition: opacity 0.3s;
-	transform: translateY(100%); /* Initially move the overlay below the card */
-}
-
-.card:hover .card-overlay {
-	opacity: 1;
-	transform: translateY(0); /* Move the overlay back to its original position */
-}
-
-.kreakassen{
 }
 
 
@@ -103,6 +56,12 @@ body {
 }
 
 //Navbar
+
+@media (max-width: 991px) {
+	.navbar-expand-lg {
+		min-height: 60px; /* Adjust the minimum height as needed */
+	}
+}
 
 
 // Menu ikon
@@ -128,32 +87,56 @@ body {
 
 //CTA cover
 
-.btn-center {
+.position-relative {
+	position: relative;
+}
+
+.overlay {
 	position: absolute;
-	top: 50%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
 
-	background-color: transparent; /* Set the background color to transparent */
-	border: 2px solid $primary-bg; /* Replace #FF0000 with the desired color code for the border */
-	box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); /* Add a shadow effect to the button */
-
-	padding: 20px 40px;
-	font-size: 40px;
+.btn-center {
+	display: block;
+	background-color: $brown;
+	border: 2px solid $primary-bg;
+	padding: 40px 60px;
+	font-size: 60px;
 	line-height: 1.5;
+	text-align: center;
+	cursor: pointer;
 }
 
 .btn-center:hover {
-	background-color: $primary-bg; /* Set the desired background color on hover */
-	color: #FFFFFF; /* Set the desired text color on hover */
+	background-color: $primary-bg;
+	color: $brown;
 	border: none;
 	box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 767px) {
+	/* Adjust the button styles for smaller screens */
+	.btn-center {
+		padding: 15px 30px;
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 479px) {
+	/* Further adjust the button styles for even smaller screens */
+	.btn-center {
+		padding: 10px 20px;
+		font-size: 20px;
+	}
+}
+
+/* The rest of your button styles */
 button {
 	--b: 3px;   /* border thickness */
 	--s: .15em; /* size of the corner */
-	--c: #BD5532;
+	--c: #ead3b8;
 
 	padding: calc(.05em + var(--s)) calc(.3em + var(--s));
 	color: var(--c);
@@ -165,17 +148,18 @@ button {
 	outline: var(--b) solid #0000;
 	outline-offset: .2em;
 }
+
 button:hover,
-button:focus-visible{
+button:focus-visible {
 	--_p: 0px;
 	outline-color: var(--c);
 	outline-offset: .05em;
 }
+
 button:active {
 	background: var(--c);
 	color: #fff;
 }
-
 
 button {
 	font-family: system-ui, sans-serif;
@@ -187,12 +171,6 @@ button {
 }
 
 
-//info cards
-
-.cbb {
-	color: $primary-bg;
-}
-
 
 //footer
 
@@ -200,15 +178,6 @@ button {
 	color: $text-primary;
 }
 
-//Cards
-
-.card-overlay {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity (last value) as needed */
-	padding: 10px;
-}
 
 //Kalender
 
@@ -216,3 +185,8 @@ button {
 	max-width: 800px;
 	margin: 0 auto;
 }
+ .card{
+	 color: #000000;
+	 background-color: $primary-bg;
+	 max-width: 18rem;
+ }
