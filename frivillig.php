@@ -39,85 +39,11 @@
 <main>
 
 
-    <!-- Hero Cover Image med CTA -->
-
-    <div class="position-relative">
-        <img src="img/coverPH.jpg" alt="Cover Image Samarbejde" class="img-fluid">
-        <h1 class="title">Samarbejdspartnere</h1>
-        <br>
-        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
-    </div>
-
-
-    <!-- Krea Indhold-->
-
-    <div class="container">
-        <div class="row g-2">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/ph/ph7.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+    <div class="position-relative pt-5">
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
+        <img src="img/coverPH2.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
+        <div class="overlay-title">
+            <h1 class="title">Bliv frivillig</h1>
         </div>
     </div>
 
@@ -134,10 +60,12 @@
     </div>
 
     <div class="container text-center">
-        <h2 class="headline" id="gentleman">Om FriRUM</h2>
-        <div class="col-sm-12 col-md-6 col-lg-4">Vores mission og værdier</div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
+        <h2>FriRUM frivillig</h2>
+        <div class="col">
+            <p>Hvordan kan <span class="fw-bold">du</span> hjælpe?</p>
+            <p>Hvad handler frivillighed om</p>
+            <p>Meningsfuld og givende</p>
+        </div>
     </div>
 
 

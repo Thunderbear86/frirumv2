@@ -29,7 +29,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<header class="pb-5">
+<header>
 
 <!--Sticky top navbar -->
 
@@ -44,7 +44,7 @@
 
     <div class="position-relative pt-5">
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
-        <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid">
+        <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid pt-2">
         <div class="overlay">
             <a href="kalender.php">
                 <button class="btn-center">Kalender</button>

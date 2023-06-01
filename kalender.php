@@ -28,7 +28,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 
 <body>
-<header class="pb-5">
+<header>
 
     <!--Sticky top navbar -->
 
@@ -38,8 +38,13 @@
 
 <main>
 
+
     <div class="position-relative pt-5">
-        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
+        <img src="img/coverPH2.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
+        <div class="overlay-title">
+            <h1 class="title">Kalender</h1>
+        </div>
     </div>
 
     <div class="container pt-5">

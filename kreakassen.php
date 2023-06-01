@@ -41,61 +41,77 @@
 
     <!-- Hero Cover Image med CTA -->
 
-    <div class="position-relative">
-        <img src="img/coverPH.jpg" alt="Cover Image Kreakassen" class="img-fluid">
-        <h1 class="title">KreaKASSEN</h1>
-        <br>
-        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image">
+    <div class="position-relative pt-5">
+        <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
+        <img src="img/coverPH2.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
+        <div class="overlay-title">
+            <h1 class="title">KreaKASSEN</h1>
+        </div>
     </div>
 
 
     <!-- Krea Indhold-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="img/krea/krea1.jpg" alt="#" class="img-thumbnail" style="border-color: $red">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <h1>TEST</h1>
-                <p>Test test test test test test test test test</p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <h1>TEST</h1>
-                <p>Test test test test test test test test test</p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="img/krea/krea2.JPG" alt="#" class="img-thumbnail">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="img/krea/krea3.JPG" alt="#" class="img-thumbnail">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="img/krea/krea4.JPG" alt="#" class="img-thumbnail">
-            </div>
+    <div class="container pt-5">
+        <div class="row g-1">
 
+        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
+                <div class="tile rounded-circle">
+                    <div class="tile-image">
+                        <img src="img/krea/krea1.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-body">
+                            <h3>GræskarHoveder</h3>
+                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                        </div>
+                </div>
+        </div>
+
+        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
+                <div class="tile rounded-circle">
+                    <div class="tile-image">
+                        <img src="img/krea/krea2.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-body">
+                            <h3>PapHoved</h3>
+                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                        </div>
+                </div>
+        </div>
+
+        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
+                <div class="tile rounded-circle">
+                    <div class="tile-image">
+                        <img src="img/krea/krea3.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-body">
+                            <h3>PapHoved</h3>
+                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                        </div>
+                </div>
+        </div>
+
+        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
+                <div class="tile rounded-circle">
+                    <div class="tile-image">
+                        <img src="img/krea/krea4.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-body">
+                            <h3>PapHoved</h3>
+                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                        </div>
+                </div>
         </div>
     </div>
-
-
-    <!-- Column indhold -->
-
-    <div class="container">
-        <h2 class="headline text-center" id="fuldkommen"></h2>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-    </div>
-
-    <div class="container text-center">
-        <h2 class="headline" id="gentleman">Om FriRUM</h2>
-        <div class="col-sm-12 col-md-6 col-lg-4">Vores mission og værdier</div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"></div>
-    </div>
-
+</div>
 
 </main>
 
