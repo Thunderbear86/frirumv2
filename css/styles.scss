@@ -90,11 +90,19 @@ body {
 	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 200px;
+	font-size: 8vw; /* Adjust the font size using viewport width */
 	color: $primary-bg;
 	background-color: rgba(202, 147, 105, 0.7);
-	padding: 20px 30px;
+	padding: 2vw 3vw; /* Adjust the padding using viewport width */
 }
+
+@media (max-width: 767px) {
+	/* Adjust the top position for small screens */
+	.overlay-title {
+		top: 80%; /* You can change this value based on your desired position */
+	}
+}
+
 
 
 
