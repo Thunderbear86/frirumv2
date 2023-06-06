@@ -37,7 +37,8 @@
                         <li class="nav-item me-3">
                             <a class="nav-link menu-text" href="om.php">Om FriRUM</a>
                         </li>
-                </ul>
+                    </ul>
+                </div>    
             </div>
         </nav>
     </div>
