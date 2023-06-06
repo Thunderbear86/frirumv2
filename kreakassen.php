@@ -72,7 +72,7 @@
         <div class="g-0 col-sm-12 col-md-4 col-lg-3">
                 <div class="tile rounded-circle">
                     <div class="tile-image">
-                        <img src="img/krea/krea2.jpg" alt="#">
+                        <img src="img/krea/krea2.JPG" alt="#">
                     </div>
                 </div>
                 <div class="card">
@@ -86,7 +86,7 @@
         <div class="g-0 col-sm-12 col-md-4 col-lg-3">
                 <div class="tile rounded-circle">
                     <div class="tile-image">
-                        <img src="img/krea/krea3.jpg" alt="#">
+                        <img src="img/krea/krea3.JPG" alt="#">
                     </div>
                 </div>
                 <div class="card">
@@ -100,7 +100,7 @@
         <div class="g-0 col-sm-12 col-md-4 col-lg-3">
                 <div class="tile rounded-circle">
                     <div class="tile-image">
-                        <img src="img/krea/krea4.jpg" alt="#">
+                        <img src="img/krea/krea4.JPG" alt="#">
                     </div>
                 </div>
                 <div class="card">

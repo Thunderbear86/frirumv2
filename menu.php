@@ -23,10 +23,10 @@
                             <a class="nav-link menu-text" href="kreakassen.php">KreaKASSEN</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link menu-text" href="workshops.php">Workshops</a>
+                            <a class="nav-link menu-text" href="#">Workshops</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link menu-text" href="teambuilding.php">Teambuilding</a>
+                            <a class="nav-link menu-text" href="#">Teambuilding</a>
                         </li>
                         <li class="nav-item me-3">
                             <a class="nav-link menu-text" href="samarbejdspartnere.php">Samarbejdspartnere</a>
