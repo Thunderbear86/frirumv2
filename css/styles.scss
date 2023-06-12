@@ -32,8 +32,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-body {
+/* body {
 	background: linear-gradient(135deg, #ead3b8 0%,#ca9369 100%);
+	font-family:Candara, sans-serif;
+} */
+
+body {
+	background: linear-gradient(135deg, #fff 0%,#cccccb 100%);
 	font-family:Candara, sans-serif;
 }
 

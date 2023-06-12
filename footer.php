@@ -1,4 +1,5 @@
-<?php echo '<div class="container-fluid bg-dark foot mt-3">
+<?php echo '
+<div class="container-fluid bg-dark foot mt-3">
     <div class="row">
     
         <div class="col-sm-6 col-md-3 col-lg-3 m-2">
@@ -40,9 +41,10 @@
         
         <div class="col-sm-6 col-md-3 col-lg-2 m-2"></div>
             
-        </div>
     </div>
 </div>
+
+
 <div class="container-fluid text-center foot bg-dark fw-bold">
-        <p>FriRUM Lab &copy; 2023 </p>
-    </div>'; ?>
+    <p>FriRUM Lab &copy; 2023 </p>
+</div>'; ?>

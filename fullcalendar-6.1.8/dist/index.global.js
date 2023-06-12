@@ -6505,7 +6505,7 @@ var FullCalendar = (function (exports) {
                 role: 'presentation',
             }, y("div", { className: `fc-scroller-harness${isLiquid ? ' fc-scroller-harness-liquid' : ''}` },
                 y(Scroller, { ref: this.scrollerRefs.createRef(sectionKey), elRef: this.scrollerElRefs.createRef(sectionKey), overflowY: overflowY, overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute // because its within a harness
-                    : true }, content)));
+                    : true }, content)))
         }
         _handleScrollerEl(scrollerEl, key) {
             let section = getSectionByKey(this.props.sections, key);

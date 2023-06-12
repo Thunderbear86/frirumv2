@@ -20,6 +20,9 @@
                             <a class="nav-link menu-text" href="kalender.php">Kalender</a>
                         </li>
                         <li class="nav-item me-3">
+                            <a class="nav-link menu-text" href="fstv.php">FriRUM Stuen TV</a>
+                        </li>
+                        <li class="nav-item me-3">
                             <a class="nav-link menu-text" href="kreakassen.php">KreaKASSEN</a>
                         </li>
                         <li class="nav-item me-3">
@@ -29,13 +32,10 @@
                             <a class="nav-link menu-text" href="#">Teambuilding</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link menu-text" href="samarbejdspartnere.php">Samarbejdspartnere</a>
-                        </li>
-                        <li class="nav-item me-3">
                             <a class="nav-link menu-text" href="frivillig.php">Bliv Frivillig</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link menu-text" href="om.php">Om FriRUM</a>
+                            <a class="nav-link menu-text" href="om.php">Om FriRUM Lab</a>
                         </li>
                     </ul>
                 </div>    
