@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>FriFRUM Samarbejde</title>
+    <title>Om FriFRUM Lab</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -43,7 +43,7 @@
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
         <img src="img/coverPH2.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
         <div class="overlay-title">
-            <h1 class="title">Om FriRUM</h1>
+            <h1 class="title">FriRUM Lab</h1>
         </div>
     </div>
 
@@ -56,8 +56,8 @@
                 <div class="card">
                     <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Hvem er vi</h5>
-                        <p class="card-text">Vores værdier, mål og indsatser</p>
+                        <h5 class="card-title">Samarbejdspartnere</h5>
+                        <p class="card-text">Vores samarbejdspartnere</p>
                         <a href="#" class="btn btn-primary">Læs mere</a>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                 <div class="card">
                     <img src="img/ph/ph7.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Frivillig hos FriRUM</h5>
+                        <p class="card-text">Del dine evner og din passion med andre</p>
                         <a href="#" class="btn btn-primary">Læs mere</a>
                     </div>
                 </div>
