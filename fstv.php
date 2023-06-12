@@ -52,48 +52,43 @@
 
     <!-- Indhold-->
 
-    <div class="container p-5">
-
-        <div class="card" style="max-width: 540px;">
-            <div class="row g-1">
-
-                <div class="col-md-4">
-
-                        <img src="img/sam/samarb.jpeg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Sammen opnår vi mål</h5>
-                            <p class="card-text">Se hvordan din virksomhed kan hjælpe</p>
-                            <p class="card-text">Bliv en del af vores socialøkonomiske cirkel og giv materialer og mennesker en nye chance</p>
-                            <a href="#" class="btn btn-primary">Læs mere</a>
-                        </div>
+    <div class="container pt-5">
+        <div class="row g-2">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="img/boern.jpeg" class="card-img-top" alt="Kreativitet for alle børn FriRUM">
+                    <div class="card-body">
+                        <h5 class="card-title">Kreativitet for alle</h5>
+                        <p class="card-text">Mød os til drop-in værksted, workshops og bare en kop kaffe</p>
+                        <a href="#" class="btn btn-primary">Læs mere</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="img/sam/recmat.jpeg" class="card-img-top" alt="Genbrugsmaterialer FriRUM">
+                    <div class="card-body">
+                        <h5 class="card-title">Nyt liv til gamle materialer</h5>
+                        <p class="card-text">Doner materialer til vores materialebank</p>
+                        <a href="#" class="btn btn-primary">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="img/kort.jpeg" class="card-img-top" alt="Kort FriRUM Stuen TV">
+                    <div class="card-body">
+                        <h5 class="card-title">Vi er flyttet!</h5>
+                        <p class="card-text">Fre 1. sal til stuen TV - vi er stadig FriRUM</p>
+                        <a href="#" class="btn btn-primary">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-
-
-        <div class="card" style="max-width: 540px;">
-            <div class="row g-1">
-
-                    <div class="col-md-4">
-
-                            <img src="img/sam/recmat.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Nyt liv til gamle materialer</h5>
-                                <p class="card-text">Doner materialer til vores materialebank</p>
-                                <a href="#" class="btn btn-primary">Læs mere</a>
-                            </div>
-                    </div>
-                </div>
-            </div>
-
     </div>
-
-
 
 </main>
 

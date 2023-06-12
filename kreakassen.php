@@ -55,62 +55,57 @@
     <div class="container pt-5">
         <div class="row g-1">
 
-        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
-                <div class="tile rounded-circle">
-                    <div class="tile-image">
-                        <img src="img/krea/krea1.jpg" alt="#">
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="card-body">
-                            <h3>GræskarHoveder</h3>
-                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
-                        </div>
-                </div>
-        </div>
 
-        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
-                <div class="tile rounded-circle">
-                    <div class="tile-image">
-                        <img src="img/krea/krea2.JPG" alt="#">
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="card-body">
-                            <h3>PapHoved</h3>
-                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+            <div class="container pt-5">
+                <div class="row g-2">
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/kreabag.jpeg" class="card-img-top" alt="Kreativ pose taske FriRUM">
+                            <div class="card-body">
+                                <h5 class="card-title">Fra almindelig til kreaTASTISK</h5>
+                                <p class="card-text">Se vores drop-in værksteder</p>
+                                <a href="#" class="btn btn-primary">Læs mere</a>
+                            </div>
                         </div>
-                </div>
-        </div>
+                    </div>
 
-        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
-                <div class="tile rounded-circle">
-                    <div class="tile-image">
-                        <img src="img/krea/krea3.JPG" alt="#">
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="card-body">
-                            <h3>PapHoved</h3>
-                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/sam/recmat.jpeg" class="card-img-top" alt="Genbrugsmaterialer FriRUM">
+                            <div class="card-body">
+                                <h5 class="card-title">Genbrug og godbrug</h5>
+                                <p class="card-text">Hvordan du forvandler skrald til guld</p>
+                                <a href="#" class="btn btn-primary">Læs mere</a>
+                            </div>
                         </div>
-                </div>
-        </div>
+                    </div>
 
-        <div class="g-0 col-sm-12 col-md-4 col-lg-3">
-                <div class="tile rounded-circle">
-                    <div class="tile-image">
-                        <img src="img/krea/krea4.JPG" alt="#">
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="card-body">
-                            <h3>PapHoved</h3>
-                            <p>FriRUM Lab viser dig her, hvordan du med genbrugsmaterialer, kan aktivere dig og dine børn kreativt.</p>
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/colorstone.jpeg" class="card-img-top" alt="FriRUM kreativ malede sten">
+                            <div class="card-body">
+                                <h5 class="card-title">Aktiviteter til hjemmet</h5>
+                                <p class="card-text">Inspiration til, hvad I kan lave med ting fra haven</p>
+                                <a href="#" class="btn btn-primary">Læs mere</a>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/workshop.jpeg" class="card-img-top" alt="FriRUM workshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Arrangementer for jer</h5>
+                                <p class="card-text">FriRUM stuen TV arrangerer alt fra polterabend til teambuilding</p>
+                                <a href="#" class="btn btn-primary">Læs mere</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+
         </div>
-    </div>
 </div>
 
 </main>
