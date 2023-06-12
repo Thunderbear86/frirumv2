@@ -38,7 +38,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 } */
 
 body {
-	background: linear-gradient(135deg, #fff 0%,#cccccb 100%);
+	background: #cccccb;
 	font-family:Candara, sans-serif;
 }
 
@@ -96,8 +96,8 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 8vw; /* Adjust the font size using viewport width */
-	color: $primary-bg;
-	background-color: rgba(202, 147, 105, 0.7);
+	color: $text-primary;
+	background-color: rgb(0, 0, 0, 0.5);
 	padding: 2vw 3vw; /* Adjust the padding using viewport width */
 }
 
@@ -206,14 +206,10 @@ button {
 
 //Kalender
 
-.calendar {
-	max-width: 800px;
-	margin: 0 auto;
-}
  .card{
 	 color: #000000;
 	 background-color: $primary-bg;
-	 max-width: 40rem;
+	 max-width: 18rem;
  }
 
  // KreaKASSEN
@@ -290,27 +286,5 @@ button {
 .btn-primary:hover {
 	background-color: $orange;
 	border-color: $orange;
-}
-
-// Bogstav coloring
-
-.red {
-color: $red;
-}
-
-.orange {
-	color: $orange;
-}
-
-.blue {
-	color: $blue;
-}
-
-.yellow {
-	color: $yellow;
-}
-
-.green {
-	color: $green;
 }
 

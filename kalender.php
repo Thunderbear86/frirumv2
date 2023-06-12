@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Kalender</title>
+    <title>FriRUM Kalender</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -41,7 +41,7 @@
 
     <div class="position-relative pt-5">
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
-        <img src="img/coverPH2.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
+        <img src="img/coverPH.jpg" alt="Cover Image Samarbejde" class="img-fluid pt-2">
         <div class="overlay-title">
             <h1 class="title">Kalender</h1>
         </div>

@@ -54,7 +54,7 @@
         <div class="row g-2">
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
+                    <img src="img/sam/samarb.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Samarbejdspartnere</h5>
                         <p class="card-text">Vores samarbejdspartnere</p>
@@ -65,7 +65,7 @@
 
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="...">
+                    <img src="img/krea/frirumkrea.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Hvad tilbyder vi</h5>
                         <p class="card-text">Hvad kan du få ud af vores tilbud - hvem er vores målgruppe</p>
@@ -76,7 +76,7 @@
 
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="img/ph/ph7.JPG" class="card-img-top" alt="...">
+                    <img src="img/frivillig.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Frivillig hos FriRUM</h5>
                         <p class="card-text">Del dine evner og din passion med andre</p>

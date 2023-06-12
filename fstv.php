@@ -49,76 +49,50 @@
         </div>
     </div>
 
-    <!-- Samarbejdspratnere karoussel-->
-    <div class="container p-3">
-        <h2 class="text-center fw-bolder"><span class="orange">F</span>r<span class="blue">i</span><span class="green">R</span><span class="yellow">U</span><span class="red">M</span>s samarbejdspartnere</h2>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/sam/VSCS.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>VestsjællandsCentret</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/sam/SlagelseKommune.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Slagelse Kommune</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/sam/SlagelseKommune.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Slagelse Kommune</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
 
     <!-- Indhold-->
 
-    <div class="container">
-        <div class="row g-1">
-            <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
-                <div class="card">
-                    <img src="img/sam/sam1.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Sammen opnår vi mål</h5>
-                        <p class="card-text">Se hvordan din virksomhed kan hjælpe</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+    <div class="container p-5">
+
+        <div class="card" style="max-width: 540px;">
+            <div class="row g-1">
+
+                <div class="col-md-4">
+
+                        <img src="img/sam/samarb.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Sammen opnår vi mål</h5>
+                            <p class="card-text">Se hvordan din virksomhed kan hjælpe</p>
+                            <p class="card-text">Bliv en del af vores socialøkonomiske cirkel og giv materialer og mennesker en nye chance</p>
+                            <a href="#" class="btn btn-primary">Læs mere</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="max-width: 540px;">
+            <div class="row g-1">
+
+                    <div class="col-md-4">
+
+                            <img src="img/sam/recmat.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nyt liv til gamle materialer</h5>
+                                <p class="card-text">Doner materialer til vores materialebank</p>
+                                <a href="#" class="btn btn-primary">Læs mere</a>
+                            </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card">
-                    <img src="img/ph/samarbejde.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nyt liv til gamle materialer</h5>
-                        <p class="card-text">Doner materialer til vores materialebank</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
 
 
 </main>
