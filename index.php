@@ -13,9 +13,23 @@
     <title>FriFRUM Lab</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
-    <meta name="robots" content="All">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="copyright" content="FriRUM Lab">
+
+    <!-- OG (Opgen Graph) SoMe deling -->
+
+    <meta property="og:title" content="FriRUM Lab" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:url" content="http://www.thunder-bear.dk" />
+
+    <meta property="og:image" content="https://www.thunderbear.dk/logo.jpg" />
+
+    <meta property="og:description" content="FriRUM Lab - kreativitet for alle! Mød os i Vestsjællandscenteret" />
+
+    <meta property="og:locale" content="da_DK" />
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -44,8 +58,12 @@
 
     <div class="position-relative pt-5">
         <img src="img/Logo.png" alt="Overlay Image" class="img-fluid png-img center-image pt-5">
-        <img src="img/ph/ph2.jpg" alt="Cover Image" class="img-fluid pt-2">
-        <div class="overlay">
+        <picture>
+            <source type="image/webp" srcset="img/coverlanding.webp">
+            <source type="image/jpeg" srcset="img/coverlanding.jpg">
+            <img src="img/coverlanding.jpg" alt="Cover Image" class="img-fluid pt-2">
+        </picture>
+            <div class="overlay">
             <a href="kalender.php">
                 <button class="btn-center">Kalender</button>
             </a>

@@ -60,44 +60,44 @@
                 <div class="row g-2">
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="img/kreabag.jpeg" class="card-img-top" alt="Kreativ pose taske FriRUM">
+                            <img src="img/tasker.jpg" class="card-img-top" alt="tryk på pose taske">
                             <div class="card-body">
                                 <h5 class="card-title">Fra almindelig til kreaTASTISK</h5>
                                 <p class="card-text">Se vores drop-in værksteder</p>
-                                <a href="#" class="btn btn-primary">Læs mere</a>
+                                <a href="#" class="btn btn-primary">Drop-in aktiviteter</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="img/sam/recmat.jpeg" class="card-img-top" alt="Genbrugsmaterialer FriRUM">
+                            <img src="img/sam/recmat.jpeg" class="card-img-top" alt="Genbrugsmaterialer">
                             <div class="card-body">
                                 <h5 class="card-title">Genbrug og godbrug</h5>
                                 <p class="card-text">Hvordan du forvandler skrald til guld</p>
-                                <a href="#" class="btn btn-primary">Læs mere</a>
+                                <a href="#" class="btn btn-primary">Gå på opdagelse</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="img/colorstone.jpeg" class="card-img-top" alt="FriRUM kreativ malede sten">
+                            <img src="img/colorstone.jpeg" class="card-img-top" alt="kreativ malede sten">
                             <div class="card-body">
                                 <h5 class="card-title">Aktiviteter til hjemmet</h5>
                                 <p class="card-text">Inspiration til, hvad I kan lave med ting fra haven</p>
-                                <a href="#" class="btn btn-primary">Læs mere</a>
+                                <a href="#" class="btn btn-primary">Slip kreativiteten løs</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="img/workshop.jpeg" class="card-img-top" alt="FriRUM workshop">
+                            <img src="img/kigind.jpg" class="card-img-top" alt="kig ind">
                             <div class="card-body">
-                                <h5 class="card-title">Arrangementer for jer</h5>
+                                <h5 class="card-title">Fra første til stuen - men stadig os</h5>
                                 <p class="card-text">FriRUM stuen TV arrangerer alt fra polterabend til teambuilding</p>
-                                <a href="#" class="btn btn-primary">Læs mere</a>
+                                <a href="#" class="btn btn-primary">Kig ind</a>
                             </div>
                         </div>
                     </div>
@@ -112,6 +112,9 @@
 
 <footer>
     <?php include 'footer.php'; ?>
+
+
+
 </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

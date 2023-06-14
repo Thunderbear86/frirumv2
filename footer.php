@@ -20,11 +20,10 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 m-2">
             <h3>Info</h3>
-            <p class="mb-0"><a href="om.php">Om FriRUM</a></p>
+            <p class="mb-0"><a href="om.php">Om FriRUM Lab</a></p>
             <p class="mb-0"><a href="#">Kontakt</a></p>
             <p class="mb-0"><a href="#">FAQ</a></p>
             <p class="mb-0"><a href="#">Nyhedsbrev</a></p>
-            <p class="mb-0"><a href="#">Handelsbetingelser</a></p>
             <p class="mb-0"><a href="#">Privatlivspolitik</a></p>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 m-2">

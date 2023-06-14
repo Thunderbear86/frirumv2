@@ -59,8 +59,8 @@
                     <img src="img/boern.jpeg" class="card-img-top" alt="Kreativitet for alle børn FriRUM">
                     <div class="card-body">
                         <h5 class="card-title">Kreativitet for alle</h5>
-                        <p class="card-text">Mød os til drop-in værksted, workshops og bare en kop kaffe</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <p class="card-text">Mød os til drop-in værksted, workshops eller bare en kop kaffe</p>
+                        <a href="#" class="btn btn-primary">Møs os her</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Nyt liv til gamle materialer</h5>
                         <p class="card-text">Doner materialer til vores materialebank</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <a href="#" class="btn btn-primary">Se hvad vi kan</a>
                     </div>
                 </div>
             </div>
@@ -82,13 +82,31 @@
                     <div class="card-body">
                         <h5 class="card-title">Vi er flyttet!</h5>
                         <p class="card-text">Fre 1. sal til stuen TV - vi er stadig FriRUM</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <a href="#" class="btn btn-primary">Se de nye lokaler</a>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+
+<div class="container">
+    <div class="row g-3 mb-4">
+        <div class="col">
+            <div class="icons text-center">
+                <a href="https://www.instagram.com/frirum_stuen_tv/?igshid=NTc4MTIwNjQ2YQ%3D%3D&fbclid=IwAR3zmUK4W5SeKSn-bZ5DSVo96lsT4ImjwS2oTumkMobfY7c5Na89R90V0yk">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100089272390316">
+                    <i class="fab fa-facebook fa-3x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 </main>
 

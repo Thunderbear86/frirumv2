@@ -140,6 +140,7 @@ body {
 	color: $brown;
 	border: none;
 	box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease-out;
 }
 
 @media (max-width: 767px) {
@@ -202,6 +203,22 @@ button {
 
 .foot {
 	color: $text-primary;
+}
+
+//Ikoner - SoMe
+
+.icons {
+	margin-top: 1rem;
+}
+
+.icons a {
+	padding: 0.4rem;
+	color: $black;
+}
+
+.icons a:hover {
+	color: $brown;
+	transition: all 0.5s ease-out;
 }
 
 //Kalender
@@ -279,12 +296,13 @@ button {
 //Samarbejde
 
 .btn-primary{
-	background-color: $green;
-	border-color: $green;
+	background-color: $black;
+	border-color: $black;
 }
 
 .btn-primary:hover {
-	background-color: $orange;
-	border-color: $orange;
+	background-color: $brown;
+	border-color: $brown;
+	transition: all 0.5s ease-out;
 }
 

@@ -58,7 +58,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Samarbejdspartnere</h5>
                         <p class="card-text">Vores samarbejdspartnere</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <a href="#" class="btn btn-primary">Bliv en del af os</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Hvad tilbyder vi</h5>
                         <p class="card-text">Hvad kan du få ud af vores tilbud - hvem er vores målgruppe</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <a href="#" class="btn btn-primary">Om FriRUM Lab</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Frivillig hos FriRUM</h5>
                         <p class="card-text">Del dine evner og din passion med andre</p>
-                        <a href="#" class="btn btn-primary">Læs mere</a>
+                        <a href="#" class="btn btn-primary">Kontakt os</a>
                     </div>
                 </div>
             </div>
@@ -88,6 +88,23 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="row g-3 mb-4">
+            <div class="col">
+                <div class="icons text-center">
+                    <a href="https://www.instagram.com/frirumlab/?igshid=NTc4MTIwNjQ2YQ%3D%3D&fbclid=IwAR2MONZ22gvkeYvDJ2x-KqSmFyZm_N4MpPVTIfZrPauF6fvqUmnwJytu5yU">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/FriRUMLab">
+                        <i class="fab fa-facebook fa-3x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 
